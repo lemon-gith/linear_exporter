@@ -99,7 +99,6 @@ def get_media(name_link_pairs, target_dir: str = "images"):
     os.makedirs(target_dir, exist_ok=True)
 
     headers = {
-        # "Content-Type": "application/json",
         "Authorization": os.environ.get("LINEAR_API_KEY")
     }
 
