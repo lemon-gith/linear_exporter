@@ -74,6 +74,7 @@ query($before: String, $number: Float) {
     }
 }
 """
+# query string modified from https://github.com/terrastruct/byelinear/blob/03a203aa310fa46721cd102c24ed75fdcdcccf41/linear.go#L27-L92
 
 
 def get_data(outputfile: str, url: str = "https://api.linear.app/graphql"):
